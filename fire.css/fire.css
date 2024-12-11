@@ -1,0 +1,50 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),black),
+    url('../IMG/restaurant_guild_log.webp');
+    
+ 
+     background-position: center;
+     background-size: 100%;
+    font-size: 186%;
+  
+}
+
+.h0{
+    color: white;
+}
+
+
+
+h1:hover{
+    color: goldenrod;
+}
+
+h2:hover{
+    color: violet;
+}
+
+h3:hover{
+    color: indigo;
+}
+
+h4:hover{
+    color: blue;
+}
+
+h5:hover{
+    color: green;
+}
+
+
+h6:hover{
+    color: yellow;
+}
+
+h1:hover{
+    color: orange;
+}
+
+p:hover{
+    color: red;
+}
+

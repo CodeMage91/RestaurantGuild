@@ -1,0 +1,128 @@
+/* proper syntax */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+#careerPage{
+   
+    position: absolute;
+}
+
+.imageHolder{
+    background-image:url(../images/blank-scroll.webp) ;
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}   
+
+.bartender{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-image: url('../images/Screenshot\ 2024-11-26\ 131550.png');
+    background-position: center;
+    background-size: contain;
+    border-radius: 23px;
+    background-repeat: no-repeat;  
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* This is a list of jobs one - four. It will make sure that they are neatly oraganized into boxes */
+.Job-one{
+    border: 2px solid gray;
+    padding: 20px; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.Job-Two{
+    border: 2px solid gray;
+    padding: 20px; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.Job-Three{
+    border: 2px solid gray;
+    padding: 20px; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.Job-Four{
+    border: 2px solid gray;
+    padding: 20px; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/* End of jobs one - four */
+
+ /* Hover efefct for the title */
+.Job-one h3, .Job-Two h3, .Job-Three h3, .Job-Four h3 {
+    position: relative;
+    z-index: 1;
+  
+    padding: 10px 15px; /* Add padding around the title for a border-like effect */
+    border: 2px solid gray; /* Border around the title */
+    border-radius: 5px; /* Rounded corners for the title box */
+    background: transparent; /* Default background is transparent */
+    transition: background-color 0.5s ease, color 0.3s ease-in-out; /* Smooth transition for hover */
+}
+
+.Job-one h3:hover, .Job-Two h3:hover, .Job-Three h3:hover, .Job-Four h3:hover {
+    background-color: red; 
+    color: white;
+}
+/* End of hover effect */
+
+.title{
+    padding: 20px; 
+    border-radius: 10px; 
+    font-size: 150%;
+}
+
+.title a {
+    text-decoration: none;
+    color: inherit; /* Keeps the original color */
+  }
+  
+  .title a:hover {
+    color: blue; /* Change to your desired color */
+  }
+  
+  /* start of footer tag */
+  footer {
+    background-color: #2c2f33;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+  /* end of footer tag */
+
+/*.job-holder{
+border: 2px solid gray;
+padding: 20px; 
+    border-radius: 10px; 
+    margin: 20px; 
+} */
